@@ -3,7 +3,7 @@ class Wio < Formula
   homepage "https://github.com/dhillondeep/wio"
   url "https://github.com/dhillondeep/wio/releases/download/v0.1.0/wio_0.1.0_darwin_64-bit.tar.gz"
   version "0.1.0"
-  sha256 "994b8111319aca9dcfbec2cbae3d2d048226296faae0bfaed9ffcbf2fed8628e"
+  sha256 "81c5a115f7cc69660116cbda3745d8f2c8832fb3d7956b733e3c93e60bb187b8"
   
   depends_on "make"
   depends_on "cmake"
@@ -12,7 +12,7 @@ class Wio < Formula
   depends_on "avrdude"
 
   def install
-    bin.install "program"
+    bin.install "wio"
   end
 
   test do
