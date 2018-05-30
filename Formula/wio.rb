@@ -1,9 +1,9 @@
 class Wio < Formula
   desc "Embedded development environment"
   homepage "https://github.com/dhillondeep/wio"
-  url "https://github.com/dhillondeep/wio/releases/download/v0.1.0/wio_0.1.0_darwin_64-bit.tar.gz"
-  version "0.1.0"
-  sha256 "68e7d18921c9f202bec2087ee27a58ba967b9a9717c220fd251397f1f7721ec9"
+  url "https://github.com/dhillondeep/wio/releases/download/v0.1.3/wio_0.1.3_darwin_64-bit.tar.gz"
+  version "0.1.3"
+  sha256 "4dd2629509610147502d68a664752da7fbc910aaa8f5e3221768b44024ad6dfe"
   
   depends_on "make"
   depends_on "cmake"
