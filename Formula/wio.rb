@@ -3,13 +3,7 @@ class Wio < Formula
   homepage "https://github.com/dhillondeep/wio"
   url "https://github.com/dhillondeep/wio/releases/download/v0.1.3/wio_0.1.3_darwin_64-bit.tar.gz"
   version "0.1.3"
-  sha256 "4dd2629509610147502d68a664752da7fbc910aaa8f5e3221768b44024ad6dfe"
-  
-  depends_on "make"
-  depends_on "cmake"
-  depends_on "node"
-  depends_on "avr-gcc"
-  depends_on "avrdude"
+  sha256 "e5e3c64f2d2c32cb7f16c7795949836ec8e9a31c06847db3ff6e90fb98d53246"
 
   def install
     prefix.install Dir["toolchain"]
