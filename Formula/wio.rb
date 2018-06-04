@@ -1,9 +1,9 @@
 class Wio < Formula
   desc "Embedded development environment"
   homepage "https://github.com/dhillondeep/wio"
-  url "https://github.com/dhillondeep/wio/releases/download/v0.1.7/wio_0.1.7_darwin_64-bit.tar.gz"
-  version "0.1.7"
-  sha256 "06bba3dee56ea0cb56785988b0191a9674200ea1ffa6b93415b5f559ea3e75a2"
+  url "https://github.com/waterloop/wio/releases/download/v0.2.0/wio_0.2.0_darwin_64-bit.tar.gz"
+  version "0.2.0"
+  sha256 "a03f8e5e0dd00bdd4c3720ca4027a96c503dacd7957b7249b389abd87d63729e"
 
   def install
     prefix.install Dir["toolchain"]
