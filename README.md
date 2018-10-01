@@ -9,7 +9,7 @@ brew tap osx-cross/avr  # needed for wio dependency
 ```
 
 ```bash
-brew tap dhillondeep/wio
+brew tap wio/wio
 ```
 
 ```bash
