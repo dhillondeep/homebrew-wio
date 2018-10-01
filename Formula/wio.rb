@@ -7,6 +7,7 @@ class Wio < Formula
 
   def install
     prefix.install Dir["toolchain"]
+    File.rename("wio_darwin_x86_64", "wio")
     bin.install "wio"
   end
 
