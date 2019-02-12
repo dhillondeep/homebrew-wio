@@ -1,9 +1,9 @@
 class Wio < Formula
   desc "An IOT Development Environment"
   homepage "https://github.com/wio/wio"
-  url "https://github.com/wio/wio/releases/download/v0.7.1/wio_darwin_x86_64.tar.gz"
-  version "0.7.1"
-  sha256 "69a1943fd4a02933b9bc4440695b72867825e3fb898d6e4d427988a70200f792"
+  url "https://github.com/wio/wio/releases/download/v0.8.0/wio_darwin_x86_64.tar.gz"
+  version "0.8.0"
+  sha256 "89d91095533d2d6fbd44bfcfdfa8b44e4f6860e4a4c814e76f962058d7e14bbe"
 
   def install
     File.rename("wio_darwin_x86_64", "wio")
@@ -11,6 +11,6 @@ class Wio < Formula
   end
 
   test do
-    system "#{bin}/wio --version"
+    system "#{bin}/wio -v"
   end
 end
