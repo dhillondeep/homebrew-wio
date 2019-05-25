@@ -4,7 +4,7 @@ class Wio < Formula
   homepage "https://github.com/wio/wio"
   url "https://github.com/wio/wio/releases/download/v0.10.0/wio_0.10.0_macOS_64bit.tar.gz"
   version "0.10.0"
-  sha256 "4be1046a21e0196bdf366656a222db78d8b12474ffdfee81b3f01c23548f6103"
+  sha256 "dc3e2c4ea53155da2d3ad9cd0c45d047652cf0f1e8451c19fa39dc9f242f8468"
 
   def install
     bin.install "wio"
